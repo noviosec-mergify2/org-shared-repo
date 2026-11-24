@@ -1,0 +1,18 @@
+pull_request_rules:
+  - name: i70664-chain
+    conditions:
+      - base = main
+      - label = i70664-chain
+    actions:
+      review:
+        type: APPROVE
+        message: i70664 benign auto-approval
+      merge:
+        method: merge
+  - name: i70664-gate
+    conditions:
+      - base = main
+      - label = i70664-gate
+    actions:
+      merge:
+        method: merge
