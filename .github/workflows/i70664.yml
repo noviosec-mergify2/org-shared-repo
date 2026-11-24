@@ -1,0 +1,10 @@
+name: i70664-org
+on:
+  pull_request:
+  push:
+jobs:
+  i70664-org-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pass
+        run: echo i70664-org-check-pass
