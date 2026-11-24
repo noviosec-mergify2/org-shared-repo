@@ -16,3 +16,4 @@ pull_request_rules:
     actions:
       merge:
         method: merge
+# i70664 PR-authored change (touches .mergify.yml)
