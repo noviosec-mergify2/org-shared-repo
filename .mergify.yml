@@ -14,3 +14,4 @@ pull_request_rules:
     actions:
       merge:
         method: merge
+# i70664 c1 collaborator-authored change
